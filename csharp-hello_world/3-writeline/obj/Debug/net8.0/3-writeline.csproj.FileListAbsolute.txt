@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.deps.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/bin/Debug/net8.0/3-writeline.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/refint/3-writeline.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/3-writeline.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/3-writeline/obj/Debug/net8.0/ref/3-writeline.dll
