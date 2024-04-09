@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.deps.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/bin/Debug/net8.0/4-print_integer.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/refint/4-print_integer.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/4-print_integer.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/4-print_integer/obj/Debug/net8.0/ref/4-print_integer.dll
