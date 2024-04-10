@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.deps.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/bin/Debug/net8.0/10-copy_cut_paste.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/refint/10-copy_cut_paste.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/10-copy_cut_paste.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/obj/Debug/net8.0/ref/10-copy_cut_paste.dll
