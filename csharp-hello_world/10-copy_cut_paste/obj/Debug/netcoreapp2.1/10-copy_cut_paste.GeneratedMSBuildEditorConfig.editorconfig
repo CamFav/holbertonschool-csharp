@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = _3_writeline
+build_property.ProjectDir = /home/camille/holbertonschool-csharp/csharp-hello_world/10-copy_cut_paste/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
