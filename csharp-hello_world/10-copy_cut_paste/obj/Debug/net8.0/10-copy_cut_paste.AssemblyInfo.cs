@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("10-copy_cut_paste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66893e963652c241b364f12f27f297c4a1ed9c78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf0a0c411e3bb78a6785e22d6dcac197959a2cbb")]
 [assembly: System.Reflection.AssemblyProductAttribute("10-copy_cut_paste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("10-copy_cut_paste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
