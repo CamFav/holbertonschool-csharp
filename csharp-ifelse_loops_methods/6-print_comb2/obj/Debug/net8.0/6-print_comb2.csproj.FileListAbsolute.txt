@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/bin/Debug/net8.0/6-print_comb2
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/bin/Debug/net8.0/6-print_comb2.deps.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/bin/Debug/net8.0/6-print_comb2.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/bin/Debug/net8.0/6-print_comb2.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/bin/Debug/net8.0/6-print_comb2.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/refint/6-print_comb2.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/6-print_comb2.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/6-print_comb2/obj/Debug/net8.0/ref/6-print_comb2.dll
