@@ -11,7 +11,7 @@ class Program
             Console.WriteLine("{0} {1} is" + " " + number % 10 + " and is greater than 5", str, number);
         else if (number % 10 < 6)
             Console.WriteLine("{0} {1} is" + " " + number % 10 + " and is less than 6 and not 0", str, number);
-        else
+        else if (number % 10 == 0)
             Console.WriteLine("{0} {1} is" + " " + number % 10 + " and is 0", str, number);
     }
 }
