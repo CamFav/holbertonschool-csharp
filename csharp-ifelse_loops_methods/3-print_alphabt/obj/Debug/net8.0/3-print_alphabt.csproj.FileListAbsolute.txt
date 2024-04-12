@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/net8.0/3-print_alphabt
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/net8.0/3-print_alphabt.deps.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/net8.0/3-print_alphabt.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/net8.0/3-print_alphabt.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/bin/Debug/net8.0/3-print_alphabt.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/refint/3-print_alphabt.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/3-print_alphabt.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/3-print_alphabt/obj/Debug/net8.0/ref/3-print_alphabt.dll
