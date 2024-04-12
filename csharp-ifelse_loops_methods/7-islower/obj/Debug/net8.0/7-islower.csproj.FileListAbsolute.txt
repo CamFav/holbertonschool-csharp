@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/bin/Debug/net8.0/7-islower
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/bin/Debug/net8.0/7-islower.deps.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/bin/Debug/net8.0/7-islower.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/bin/Debug/net8.0/7-islower.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/bin/Debug/net8.0/7-islower.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/refint/7-islower.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/7-islower.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/7-islower/obj/Debug/net8.0/ref/7-islower.dll
