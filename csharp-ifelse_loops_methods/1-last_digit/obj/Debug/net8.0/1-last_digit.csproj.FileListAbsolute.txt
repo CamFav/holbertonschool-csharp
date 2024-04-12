@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/bin/Debug/net8.0/1-last_digit
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/bin/Debug/net8.0/1-last_digit.deps.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/bin/Debug/net8.0/1-last_digit.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/bin/Debug/net8.0/1-last_digit.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/bin/Debug/net8.0/1-last_digit.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/refint/1-last_digit.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/1-last_digit.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/1-last_digit/obj/Debug/net8.0/ref/1-last_digit.dll
