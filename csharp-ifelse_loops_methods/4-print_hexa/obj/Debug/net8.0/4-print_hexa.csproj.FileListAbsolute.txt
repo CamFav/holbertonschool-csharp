@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/net8.0/4-print_hexa
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/net8.0/4-print_hexa.deps.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/net8.0/4-print_hexa.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/net8.0/4-print_hexa.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/bin/Debug/net8.0/4-print_hexa.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/refint/4-print_hexa.dll
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.pdb
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/4-print_hexa.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-ifelse_loops_methods/4-print_hexa/obj/Debug/net8.0/ref/4-print_hexa.dll
