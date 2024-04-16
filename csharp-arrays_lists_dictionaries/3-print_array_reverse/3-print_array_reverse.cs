@@ -8,8 +8,9 @@ class Array
         {
             for (int i = array.Length - 1; i >= 0; i--)
             {
-                Console.Write(array[i] + " ");
-            
+                Console.Write(array[i]);
+                if (i > 0)
+                Console.Write(" ");
             }
         }
         Console.WriteLine();
