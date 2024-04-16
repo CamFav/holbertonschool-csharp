@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/bin/Debug/net8.0/2-replace_element
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/bin/Debug/net8.0/2-replace_element.deps.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/bin/Debug/net8.0/2-replace_element.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/bin/Debug/net8.0/2-replace_element.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/bin/Debug/net8.0/2-replace_element.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/refint/2-replace_element.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/2-replace_element.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/2-replace_element/obj/Debug/net8.0/ref/2-replace_element.dll
