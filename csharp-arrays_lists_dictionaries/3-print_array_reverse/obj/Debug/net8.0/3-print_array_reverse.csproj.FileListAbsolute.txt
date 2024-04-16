@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/bin/Debug/net8.0/3-print_array_reverse
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/bin/Debug/net8.0/3-print_array_reverse.deps.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/bin/Debug/net8.0/3-print_array_reverse.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/bin/Debug/net8.0/3-print_array_reverse.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/bin/Debug/net8.0/3-print_array_reverse.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/refint/3-print_array_reverse.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/3-print_array_reverse.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/3-print_array_reverse/obj/Debug/net8.0/ref/3-print_array_reverse.dll
