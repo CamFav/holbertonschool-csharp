@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/bin/Debug/net8.0/6-divisible_by_2
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/bin/Debug/net8.0/6-divisible_by_2.deps.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/bin/Debug/net8.0/6-divisible_by_2.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/bin/Debug/net8.0/6-divisible_by_2.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/bin/Debug/net8.0/6-divisible_by_2.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/refint/6-divisible_by_2.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/6-divisible_by_2.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/6-divisible_by_2/obj/Debug/net8.0/ref/6-divisible_by_2.dll
