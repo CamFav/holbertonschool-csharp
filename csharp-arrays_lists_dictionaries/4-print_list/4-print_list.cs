@@ -12,12 +12,10 @@ class List
 
         List<int> newList = new List<int>();
 
-        int i = 0;
-        while (i < size)
+        for (int i = 0; i < size; i++)
         {
             newList.Add(i);
             Console.Write(i + " ");
-            i++;
         }
         Console.WriteLine();
 
