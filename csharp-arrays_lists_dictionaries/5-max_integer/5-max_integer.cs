@@ -15,12 +15,8 @@ class List
         foreach (int num in myList)
         {
             if (num > maxInt)
-            {
                 maxInt = num;
-            }
         }
-
-        // Retourne le plus grand entier trouvé
         return maxInt;
     }
 }
