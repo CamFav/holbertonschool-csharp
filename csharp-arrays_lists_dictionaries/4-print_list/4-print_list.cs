@@ -22,6 +22,10 @@ class List
         {
             newList.Add(i);
             Console.Write(i + " ");
+            if (i != size - 1)
+            {
+                Console.Write(" ");
+            }
         }
         Console.WriteLine();
 
