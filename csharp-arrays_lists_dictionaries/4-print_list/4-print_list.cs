@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+using System;
 
 class List
 {
@@ -10,18 +9,22 @@ class List
             Console.WriteLine("Size cannot be negative");
             return null;
         }
-        List<int> listA = new List<int>();
+
+        List<int> newList = new List<int>();
+
         if (size == 0)
 	    {
 	        Console.WriteLine();
-	        return listA;
+	        return newList;
         }
-        for(int i=0; i < size;i++) 
-            {
-                Console.Write("{0}{1}",i , i != size-1 ? " ":"");
-                listA.Add(i); 
-            }
+
+        for (int i = 0; i < size; i++)
+        {
+            newList.Add(i);
+            Console.Write(i + " ");
+        }
         Console.WriteLine();
-        return listA;
+
+        return newList;
     }
 }
