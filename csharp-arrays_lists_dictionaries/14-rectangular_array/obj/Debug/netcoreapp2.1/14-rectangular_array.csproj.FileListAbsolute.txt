@@ -1,0 +1,14 @@
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.deps.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.runtimeconfig.dev.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/bin/Debug/netcoreapp2.1/14-rectangular_array.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.csproj.AssemblyReference.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/14-rectangular_array/obj/Debug/netcoreapp2.1/14-rectangular_array.genruntimeconfig.cache
