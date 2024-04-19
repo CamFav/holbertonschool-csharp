@@ -14,15 +14,13 @@ class List
 
         List<int> newList = new List<int>();
 
-        // Copy elements, excluding the element at the specified index
         for (int i = 0; i < myList.Count; i++)
         {
-            if (i != index)
+            if (i == index)
             {
-               newList.Add(myList[i]);
+               myList.Remove(3);
             }
         }
-
-        return newList;
+        return myList;
     }
 }
