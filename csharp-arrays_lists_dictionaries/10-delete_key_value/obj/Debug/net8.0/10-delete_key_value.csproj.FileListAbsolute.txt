@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/bin/Debug/net8.0/10-delete_key_value
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/bin/Debug/net8.0/10-delete_key_value.deps.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/bin/Debug/net8.0/10-delete_key_value.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/bin/Debug/net8.0/10-delete_key_value.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/bin/Debug/net8.0/10-delete_key_value.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/refint/10-delete_key_value.dll
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.pdb
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/10-delete_key_value.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-arrays_lists_dictionaries/10-delete_key_value/obj/Debug/net8.0/ref/10-delete_key_value.dll
