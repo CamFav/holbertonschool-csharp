@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/bin/Debug/net8.0/2-different_elements
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/bin/Debug/net8.0/2-different_elements.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/bin/Debug/net8.0/2-different_elements.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/bin/Debug/net8.0/2-different_elements.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/bin/Debug/net8.0/2-different_elements.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/refint/2-different_elements.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/2-different_elements.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/2-different_elements/obj/Debug/net8.0/ref/2-different_elements.dll
