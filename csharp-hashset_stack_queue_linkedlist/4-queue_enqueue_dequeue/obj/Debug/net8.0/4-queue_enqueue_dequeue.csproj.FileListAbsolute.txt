@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/bin/Debug/net8.0/4-queue_enqueue_dequeue
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/bin/Debug/net8.0/4-queue_enqueue_dequeue.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/bin/Debug/net8.0/4-queue_enqueue_dequeue.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/bin/Debug/net8.0/4-queue_enqueue_dequeue.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/bin/Debug/net8.0/4-queue_enqueue_dequeue.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/refint/4-queue_enqueue_dequeue.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/4-queue_enqueue_dequeue.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/4-queue_enqueue_dequeue/obj/Debug/net8.0/ref/4-queue_enqueue_dequeue.dll
