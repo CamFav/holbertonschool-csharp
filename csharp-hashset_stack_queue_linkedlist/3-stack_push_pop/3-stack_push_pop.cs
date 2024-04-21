@@ -3,6 +3,9 @@
 // Print if aStack contains a given item search
 // If aStack contains the given item search, remove all items up to and including search; otherwise, leave aStack as is
 // Add a new given item newItem to aStack and return aStack
+using System;
+using System.Collections.Generic;
+
 class MyStack
 {
     public static Stack<string> Info(Stack<string> aStack, string newItem, string search)
