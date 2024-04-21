@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/bin/Debug/net8.0/0-unique_add
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/bin/Debug/net8.0/0-unique_add.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/bin/Debug/net8.0/0-unique_add.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/bin/Debug/net8.0/0-unique_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/bin/Debug/net8.0/0-unique_add.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/refint/0-unique_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/0-unique_add.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/0-unique_add/obj/Debug/net8.0/ref/0-unique_add.dll
