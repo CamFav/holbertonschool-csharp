@@ -15,20 +15,20 @@ class MyQueue
 
         if (aQueue.Count == 0)
         {
-            Console.WriteLine("Stack is empty");
+            Console.WriteLine("Queue is empty");
         }
         else
         {
             Console.WriteLine("First item: {0}", aQueue.Peek());
         }
 
+        aQueue.Enqueue(newItem);
+
         Console.WriteLine("Queue contains \"{0}\": {1}", search, aQueue.Contains(search));
 
         // Remove all items up to and including search.
         while (aQueue.Contains(search))
             aQueue.Dequeue();
-
-        aQueue.Enqueue(newItem);
 
         return aQueue;
 
