@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/bin/Debug/net8.0/3-stack_push_pop
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/bin/Debug/net8.0/3-stack_push_pop.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/bin/Debug/net8.0/3-stack_push_pop.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/bin/Debug/net8.0/3-stack_push_pop.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/bin/Debug/net8.0/3-stack_push_pop.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/refint/3-stack_push_pop.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/3-stack_push_pop.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/3-stack_push_pop/obj/Debug/net8.0/ref/3-stack_push_pop.dll
