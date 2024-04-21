@@ -2,7 +2,7 @@
 // Print the item at the top of aStack without removing it
 // Print if aStack contains a given item search
 // If aStack contains the given item search, remove all items up to and including search; otherwise, leave aStack as is
-// Add a new given item newItem to aStack and return aStack
+// Add a new given item newItem to aStack and
 using System;
 using System.Collections.Generic;
 
