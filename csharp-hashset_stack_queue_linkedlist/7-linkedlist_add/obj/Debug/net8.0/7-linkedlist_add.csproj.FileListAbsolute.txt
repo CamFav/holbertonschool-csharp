@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/bin/Debug/net8.0/7-linkedlist_add
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/bin/Debug/net8.0/7-linkedlist_add.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/bin/Debug/net8.0/7-linkedlist_add.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/bin/Debug/net8.0/7-linkedlist_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/bin/Debug/net8.0/7-linkedlist_add.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/refint/7-linkedlist_add.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/7-linkedlist_add.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/7-linkedlist_add/obj/Debug/net8.0/ref/7-linkedlist_add.dll
