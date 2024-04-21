@@ -20,7 +20,7 @@ class MyStack
         else
             Console.WriteLine("Top item: {0}", topItem);
 
-        Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
+        Console.WriteLine("Stack contains \"{0}\": {1}", search, aStack.Contains(search));
 
         // Remove all items up to and including search.
         while (aStack.Contains(search))
