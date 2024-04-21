@@ -15,10 +15,10 @@ class MyStack
 
         Console.WriteLine("Number of items: {0}", numberItems);
 
-        if (aStack.Count > 0)
-            Console.WriteLine("Top item: {0}", topItem);
-        else
+        if (aStack.Count == 0)
             Console.WriteLine("Stack is empty");
+        else
+            Console.WriteLine("Top item: {0}", topItem);
 
         Console.WriteLine($"Stack contains \"{search}\": {aStack.Contains(search)}");
 
