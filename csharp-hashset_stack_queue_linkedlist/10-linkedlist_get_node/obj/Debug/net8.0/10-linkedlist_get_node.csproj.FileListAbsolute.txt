@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/net8.0/10-linkedlist_get_node
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/net8.0/10-linkedlist_get_node.deps.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/net8.0/10-linkedlist_get_node.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/net8.0/10-linkedlist_get_node.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/bin/Debug/net8.0/10-linkedlist_get_node.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/refint/10-linkedlist_get_node.dll
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.pdb
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/10-linkedlist_get_node.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hashset_stack_queue_linkedlist/10-linkedlist_get_node/obj/Debug/net8.0/ref/10-linkedlist_get_node.dll
