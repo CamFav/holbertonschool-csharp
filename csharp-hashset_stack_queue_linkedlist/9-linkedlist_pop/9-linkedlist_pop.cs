@@ -10,13 +10,10 @@ class LList
 
         if (myLList.Count == 0)
         {
-            return 0;
+            return (0);
         }
-
-        int headValue = myLList.First.Value;
-
+        headValue = myLList.First.Value;
         myLList.RemoveFirst();
-
         return headValue;
     }
 }
