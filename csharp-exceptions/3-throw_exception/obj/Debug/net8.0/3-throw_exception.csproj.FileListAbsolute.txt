@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/bin/Debug/net8.0/3-throw_exception
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/bin/Debug/net8.0/3-throw_exception.deps.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/bin/Debug/net8.0/3-throw_exception.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/bin/Debug/net8.0/3-throw_exception.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/bin/Debug/net8.0/3-throw_exception.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/refint/3-throw_exception.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/3-throw_exception.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/3-throw_exception/obj/Debug/net8.0/ref/3-throw_exception.dll
