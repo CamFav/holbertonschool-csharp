@@ -1,0 +1,6 @@
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.csproj.AssemblyReference.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/0-safe_list_print/obj/Debug/netcoreapp2.1/0-safe_list_print.sourcelink.json
