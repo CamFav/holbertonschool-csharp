@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/bin/Debug/net8.0/4-throw_exception_msg
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/bin/Debug/net8.0/4-throw_exception_msg.deps.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/bin/Debug/net8.0/4-throw_exception_msg.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/bin/Debug/net8.0/4-throw_exception_msg.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/bin/Debug/net8.0/4-throw_exception_msg.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/refint/4-throw_exception_msg.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/4-throw_exception_msg.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/4-throw_exception_msg/obj/Debug/net8.0/ref/4-throw_exception_msg.dll
