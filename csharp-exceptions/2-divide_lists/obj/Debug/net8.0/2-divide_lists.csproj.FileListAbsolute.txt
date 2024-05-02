@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/bin/Debug/net8.0/2-divide_lists
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/bin/Debug/net8.0/2-divide_lists.deps.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/bin/Debug/net8.0/2-divide_lists.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/bin/Debug/net8.0/2-divide_lists.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/bin/Debug/net8.0/2-divide_lists.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/refint/2-divide_lists.dll
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.pdb
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/2-divide_lists.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-exceptions/2-divide_lists/obj/Debug/net8.0/ref/2-divide_lists.dll
