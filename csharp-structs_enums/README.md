@@ -11,7 +11,7 @@
 - [Resources](#resources)
 - [Learning Objectives](#learning-objectives)
 - [Requirements](#requirements)
-- [Tasks](#tasks)
+- [Task List](#task-list)
 
 ---
 
@@ -48,3 +48,22 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - Each C# task requires its own folder and .csproj file. Push all task folders to your GitHub and ensure the task names on the folders are correct
 - You do not need to push your obj/ or bin/ folders
 - In the following examples, the main.cs files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.cs files at compilation. Our main.cs files might be different from the one shown in the examples
+
+---
+
+## Task List
+
+| Filename                      | Description                                                                                                   |
+|-------------------------------|---------------------------------------------------------------------------------------------------------------|
+| 0. They're good dogs          | Define a new enum `Rating` with the values `Good`, `Great`, `Excellent`.                                     |
+| 1. Chief Puppy Officer        | Based on 0-dog, define a new struct `Dog` with the following members: `name`: type `public string` - `age`: type `public float` - `owner`: type `public string` - `rating`: type `public Rating`.|
+| 2. A dog is the only thing... | Based on 1-dog, add a constructor to struct `Dog` that takes parameters.                                    |
+| 3. A dog will teach you...    | Based on 2-dog, override the `.ToString()` method to print the `Dog` object’s attributes to stdout.           |
+
+---
+
+## Contact
+
+You can reach out to me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/-CamilleFavriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/camille-favriel-503223245/)](https://www.linkedin.com/in/camille-favriel-503223245/)
