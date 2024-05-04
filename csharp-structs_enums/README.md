@@ -60,3 +60,10 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 | 2. A dog is the only thing... | Based on 1-dog, add a constructor to struct `Dog` that takes parameters.                                    |
 | 3. A dog will teach you...    | Based on 2-dog, override the `.ToString()` method to print the `Dog` object’s attributes to stdout.           |
 
+---
+
+## Contact
+
+You can reach out to me on LinkedIn:
+
+[![LinkedIn](https://img.shields.io/badge/-CamilleFavriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/camille-favriel-503223245/)](https://www.linkedin.com/in/camille-favriel-503223245/)
