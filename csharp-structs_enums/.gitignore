@@ -1,5 +1,5 @@
 # Ignore main.cs files
-**/main.cs
+**/*-main.cs
 
 # Ignore obj/ and bin/ folders
 **/obj/
