@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/CamFav/holbertonschool-csharp/main/holberton-logo.png" alt="Holberton School Logo" width="200" height="200">
-</div>
-
 # <div align="center">Holberton School CSharp Projects</div>
 
 Welcome to the Holberton School CSharp repository! This repository contains projects completed as part of the Holberton School curriculum, focusing on C# programming language.
