@@ -44,7 +44,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
   ## Task List
 
-  | Filename                  | Description                                                                                          |
+| Filename                  | Description                                                                                          |
 |---------------------------|------------------------------------------------------------------------------------------------------|
 | 0. Safe list printing      | Write a method that prints n elements of a list.                                                     |
 | 1. Integer division        | Write a function that divides 2 integers and prints the result.                                      |
