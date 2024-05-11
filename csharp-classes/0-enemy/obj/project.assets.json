@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/camille/holbertonschool-csharp/0-enemy/0-enemy.csproj",
+      "projectUniqueName": "/home/camille/holbertonschool-csharp/csharp-classes/0-enemy/0-enemy.csproj",
       "projectName": "0-enemy",
-      "projectPath": "/home/camille/holbertonschool-csharp/0-enemy/0-enemy.csproj",
+      "projectPath": "/home/camille/holbertonschool-csharp/csharp-classes/0-enemy/0-enemy.csproj",
       "packagesPath": "/home/camille/.nuget/packages/",
-      "outputPath": "/home/camille/holbertonschool-csharp/0-enemy/obj/",
+      "outputPath": "/home/camille/holbertonschool-csharp/csharp-classes/0-enemy/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/camille/.nuget/NuGet/NuGet.Config"
