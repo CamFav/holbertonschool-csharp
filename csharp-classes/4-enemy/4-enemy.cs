@@ -1,30 +1,27 @@
-﻿﻿using System;
+﻿using System;
 
 
 namespace Enemies
 {
-    /// <summary>
-    /// Represents a zombie enemy.
-    /// </summary>
+    /// <summary>public class Zombie that defines a zombie</summary>
     public class Zombie
     {
         /// <summary>
-        /// Represents the health of the zombie.
+        /// Health of the zombie
         /// </summary>
         private int health;
         private string name = "(No name)";
 
         /// <summary>
-        /// Represents the health of the zombie.
+        ///Zombie health
         /// </summary>
         public Zombie()
         {
             health = 0;
         }
-        /// <summary>
-        /// Constructor for the Zombie class.
-        /// Health set to 0.
-        /// </summary>
+        /// <sumary>
+        ///public constructor
+        ///</sumary>
         public Zombie(int value)
         {
             if (value < 0)
@@ -33,15 +30,15 @@ namespace Enemies
             }
             health = value;
         }
-        /// <summary>
-        /// Gets the health of the zombie.
-        /// </summary>
+        /// <sumary>
+        ///public method
+        ///</sumary>
         public int GetHealth()
         {
             return (health);
         }
         /// <sumary>
-        // /public property
+        ///public property
         ///</sumary>
         public string Name
         {
