@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XZOxVDS0T1NeBj8FUKWgno74DF3+ow7vLRgN96eCc6UjaVJVIv3D62fklo+SiWfDya6q6ZGG+Y9x2tV1qAfJjg==",
+  "dgSpecHash": "Kgk4Jr5BMgLCn5izkPxnbxsezm2NpcLkt620vdk5Ln3U4C/1VTU69+D9t7pIFir0lYtJ2SHxryGFNZqYJYi0hQ==",
   "success": true,
-  "projectFilePath": "/home/camille/holbertonschool-csharp/5-enemy/5-enemy.csproj",
+  "projectFilePath": "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/5-enemy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

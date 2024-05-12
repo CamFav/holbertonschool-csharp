@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/camille/holbertonschool-csharp/5-enemy/5-enemy.csproj": {}
+    "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/5-enemy.csproj": {}
   },
   "projects": {
-    "/home/camille/holbertonschool-csharp/5-enemy/5-enemy.csproj": {
+    "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/5-enemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/camille/holbertonschool-csharp/5-enemy/5-enemy.csproj",
+        "projectUniqueName": "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/5-enemy.csproj",
         "projectName": "5-enemy",
-        "projectPath": "/home/camille/holbertonschool-csharp/5-enemy/5-enemy.csproj",
+        "projectPath": "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/5-enemy.csproj",
         "packagesPath": "/home/camille/.nuget/packages/",
-        "outputPath": "/home/camille/holbertonschool-csharp/5-enemy/obj/",
+        "outputPath": "/home/camille/holbertonschool-csharp/csharp-classes/5-enemy/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/camille/.nuget/NuGet/NuGet.Config"
