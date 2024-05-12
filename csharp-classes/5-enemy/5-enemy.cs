@@ -3,27 +3,25 @@
 
 namespace Enemies
 {
-    /// <summary>
-    /// Represents a zombie enemy.
-    /// </summary>
+    /// <summary>public class Zombie that defines a zombie</summary>
     public class Zombie
     {
         /// <summary>
-        /// Represents the health of the zombie.
+        /// Health of the zombie
         /// </summary>
-        public int health;
+        private int health;
+        private string name = "(No name)";
 
         /// <summary>
-        /// Represents the health of the zombie.
+        ///Zombie health
         /// </summary>
         public Zombie()
         {
             health = 0;
         }
-        /// <summary>
-        /// Constructor for the Zombie class.
-        /// Health set to 0.
-        /// </summary>
+        /// <sumary>
+        ///public constructor
+        ///</sumary>
         public Zombie(int value)
         {
             if (value < 0)
@@ -32,24 +30,28 @@ namespace Enemies
             }
             health = value;
         }
-        /// <summary>
-        /// Gets the health of the zombie.
-        /// </summary>
+        /// <sumary>
+        ///public method
+        ///</sumary>
         public int GetHealth()
         {
             return (health);
         }
         /// <sumary>
-        /// Property
+        ///public property
         ///</sumary>
         public string Name
         {
             get { return name; }
             set { name = value; }
         }
+        /// <sumary>
+        ///public method
+        ///</sumary>
+
         public override string ToString()
         {
-            return $"Zombie Name: {name} / Total Health: {health}";
+            return string.Format("Zombie Name: {0} / Total Health: {1}", name, health);
         }
     }
 }
