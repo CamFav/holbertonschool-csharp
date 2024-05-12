@@ -11,7 +11,8 @@ namespace Enemies
         /// <summary>
         /// Represents the health of the zombie.
         /// </summary>
-        public int health;
+        private int health;
+        private string name = "(No name)";
 
         /// <summary>
         /// Represents the health of the zombie.
@@ -40,7 +41,7 @@ namespace Enemies
             return (health);
         }
         /// <sumary>
-        /// Property
+        // /public property
         ///</sumary>
         public string Name
         {
