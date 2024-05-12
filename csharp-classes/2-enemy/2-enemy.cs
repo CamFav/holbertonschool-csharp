@@ -1,4 +1,6 @@
-﻿namespace Enemies
+﻿using System;
+
+namespace Enemies
 {
     /// <summary>
     /// Represents a zombie enemy.
