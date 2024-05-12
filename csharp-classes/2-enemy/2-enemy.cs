@@ -1,4 +1,5 @@
-﻿using System;
+﻿﻿using System;
+
 
 namespace Enemies
 {
@@ -13,13 +14,16 @@ namespace Enemies
         public int health;
 
         /// <summary>
-        /// Constructor for the Zombie class.
-        /// Health set to 0.
+        /// Represents the health of the zombie.
         /// </summary>
         public Zombie()
         {
             health = 0;
         }
+        /// <summary>
+        /// Constructor for the Zombie class.
+        /// Health set to 0.
+        /// </summary>
         public Zombie(int value)
         {
             if (value < 0)
