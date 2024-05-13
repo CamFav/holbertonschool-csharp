@@ -4,21 +4,84 @@ using Text;
 namespace Text.Tests
 {
     [TestFixture]
-    public class TextTests
+    public class StrTests
     {
-        [TestCase("Racecar", true)]
-        [TestCase("level", true)]
-        [TestCase("A man, a plan, a canal: Panama.", true)]
-        [TestCase("", true)]
-        [TestCase("hello", false)]
-        [TestCase("not a palindrome", false)]
-        public void IsPalindrome_ValidInput_ReturnsExpectedResult(string input, bool expected)
+        [Test]
+        public void UniqueChar_WithEmptyString_ReturnsNegativeOne()
         {
+            // Arrange
+            string s = "";
+
             // Act
-            bool result = Str.IsPalindrome(input);
+            int result = Str.UniqueChar(s);
 
             // Assert
-            Assert.AreEqual(expected, result);
+            Assert.AreEqual(-1, result);
+        }
+
+        [Test]
+        public void UniqueChar_WithNoUniqueCharacter_ReturnsNegativeOne()
+        {
+            // Arrange
+            string s = "hello";
+
+            // Act
+            int result = Str.UniqueChar(s);
+
+            // Assert
+            Assert.AreEqual(-1, result);
+        }
+
+        [Test]
+        public void UniqueChar_WithUniqueCharacter_ReturnsIndex()
+        {
+            // Arrange
+            string s = "leetcode";
+
+            // Act
+            int result = Str.UniqueChar(s);
+
+            // Assert
+            Assert.AreEqual(0, result);
+        }
+
+        [Test]
+        public void UniqueChar_WithMultipleCharacters_ReturnsIndex()
+        {
+            // Arrange
+            string s = "loveleetcode";
+
+            // Act
+            int result = Str.UniqueChar(s);
+
+            // Assert
+            Assert.AreEqual(2, result);
+        }
+
+        [Test]
+        public void UniqueChar_WithAllCharactersRepeated_ReturnsNegativeOne()
+        {
+            // Arrange
+            string s = "aaabbbccc";
+
+            // Act
+            int result = Str.UniqueChar(s);
+
+            // Assert
+            Assert.AreEqual(-1, result);
+        }
+
+        [Test]
+        public void UniqueChar_WithFirstCharacterUnique_ReturnsIndex()
+        {
+            // Arrange
+            string s = "abcdabcd";
+
+            // Act
+            int result = Str.UniqueChar(s);
+
+            // Assert
+            Assert.AreEqual(0, result);
         }
     }
 }
