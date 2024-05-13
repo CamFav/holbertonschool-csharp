@@ -10,8 +10,8 @@ namespace MyMath
         /// <summary>
         /// Divide all elements of a Matrix
         /// </summary>
-        /// <param name="matrix"></param>
-        /// <param name="num"></param>
+        /// <param name="matrix">The matrix to divide</param>
+        /// <param name="num"> The number to divide each element of the matrix</param>
         /// <returns>Divided new matrix</returns>
         public static int[,] Divide(int[,] matrix, int num)
         {
