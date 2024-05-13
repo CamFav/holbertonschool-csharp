@@ -83,5 +83,45 @@ namespace Text.Tests
             // Assert
             Assert.AreEqual(0, result);
         }
+
+        [Test]
+public void UniqueChar_WithSingleCharacter_ReturnsIndex()
+{
+    // Arrange
+    string s = "a";
+
+    // Act
+    int result = Str.UniqueChar(s);
+
+    // Assert
+    Assert.AreEqual(0, result);
+}
+
+[Test]
+public void UniqueChar_WithAllCharactersUnique_ReturnsIndex()
+{
+    // Arrange
+    string s = "aaaaaaaaaaa";
+
+    // Act
+    int result = Str.UniqueChar(s);
+
+    // Assert
+    Assert.AreEqual(0, result);
+}
+
+[Test]
+public void UniqueChar_WithOnlyLastCharacterUnique_ReturnsIndex()
+{
+    // Arrange
+    string s = "aaaaaaaaag";
+
+    // Act
+    int result = Str.UniqueChar(s);
+
+    // Assert
+    Assert.AreEqual(11, result);
+}
+
     }
 }
