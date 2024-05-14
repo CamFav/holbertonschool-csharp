@@ -3,10 +3,10 @@
 /// <summary>
 /// [Base Class] Representing the shape
 /// </summary>
-public class Shape
+class Shape
 {
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
     }
-}
+} 
