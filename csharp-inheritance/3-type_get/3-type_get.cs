@@ -11,12 +11,18 @@ class Obj
     {
         Type objType = myObj.GetType();
 
-        Console.WriteLine($"{objType.Name} Properties and Methods:");
+        Console.WriteLine($"{objType.Name} Properties:");
 
         // Iterate throught both properties and methods
-        foreach (MemberInfo member in objType.GetMembers())
+        foreach (PropertyInfo properties in objType.GetProperties())
         {
-            Console.WriteLine(member.Name);
-        } 
+            Console.WriteLine(properties.Name);
+        }
+
+        Console.WriteLine($"{objType.Name} Methods:");
+        foreach (MethodInfo methods in objType.GetMethods())
+        {
+            Console.WriteLine(methods.Name);
+        }
     }
 }
