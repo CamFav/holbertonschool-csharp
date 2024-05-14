@@ -68,7 +68,7 @@ class Square : Rectangle
             
             this.size = value;
             this.Width = value;
-            this.Height;
+            this.Height = value;
         }
     }
 }
