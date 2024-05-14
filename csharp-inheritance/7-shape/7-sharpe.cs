@@ -43,7 +43,7 @@ class Rectangle : Shape
 
     public new int Area()
     {
-        return this.width * this.height;
+        return this.Width * this.Height;
     }
 
     public override string ToString()
