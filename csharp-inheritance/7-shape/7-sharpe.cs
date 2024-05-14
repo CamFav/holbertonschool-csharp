@@ -5,6 +5,11 @@
 /// </summary>
 class Shape
 {
+    /// <summary>
+    /// Overriden to get the Area
+    /// </summary>
+    /// <returns></returns>
+    /// <exception cref="NotImplementedException"></exception>
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
