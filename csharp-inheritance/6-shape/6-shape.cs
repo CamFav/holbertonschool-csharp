@@ -21,27 +21,23 @@ class Rectangle : Shape
 
     public int Width
     {
-        get { return this.width; }
-        set
-        {
+        get { return width; }
+        set {
             if (value < 0)
-            {
-                throw new ArgumentException("Width must be greater than or equal to 0.");
-            }
-            this.width = value;
+                throw new ArgumentException("Width must be greater than or equal to 0");
+            
+            width = value;
         }
     }
 
     public int Height
     {
-        get { return this.height; }
-        set
-        {
+        get { return height; }
+        set {
             if (value < 0)
-            {
-                throw new ArgumentException("Height must be greater than or equal to 0.");
-            }
-            this.height = value;
+                throw new ArgumentException("Height must be greater than or equal to 0");
+            
+            height = value;
         }
     }
 }
