@@ -11,7 +11,6 @@ class Shape
     }
 } 
 
-
 /// <summary>
 /// [Derived Class] Representing a Rectangle
 /// </summary>
@@ -22,27 +21,27 @@ class Rectangle : Shape
 
     public int Width
     {
-        get { return width; }
+        get { return this.width; }
         set
         {
             if (value < 0)
             {
                 throw new ArgumentException("Width must be greater than or equal to 0.");
             }
-            width = value;
+            this.width = value;
         }
     }
 
     public int Height
     {
-        get { return height; }
+        get { return this.height; }
         set
         {
             if (value < 0)
             {
                 throw new ArgumentException("Height must be greater than or equal to 0.");
             }
-            height = value;
+            this.height = value;
         }
     }
 }
