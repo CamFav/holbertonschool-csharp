@@ -15,8 +15,6 @@ public class ImageProcessor
     /// <param name="filenames">An array of filenames of the images to be processed.</param>
     public static void Inverse(string[] filenames)
     {
-        // Load, switch colors, save the file.
-
         // Retrieve the image
         foreach (string filename in filenames)
         {
@@ -38,9 +36,12 @@ public class ImageProcessor
                     }
                 }
 
+                // Get the original image format
+                ImageFormat format = bitmap.RawFormat;
+
                 // Save the new image
-                string newFilename = Path.GetFileNameWithoutExtension(filename) + "_inverse" + Path.GetExtension(filename);
-                bitmap.Save(newFilename, ImageFormat.Jpeg);
+                string newFilename = Path.Combine(Directory.GetCurrentDirectory(), Path.GetFileNameWithoutExtension(filename) + "_inverse" + Path.GetExtension(filename));
+                bitmap.Save(newFilename, format);
             }
         }
     }
