@@ -22,11 +22,13 @@ public class ImageProcessor
             using (Bitmap bitmap = new Bitmap(filename))
             {
                 int x, y;
+                int width = bitmap.Width;
+                int height = bitmap.Height;
 
                 // Get the image pixels
-                for(x = 0; x < bitmap.Width; x++)
+                for(x = 0; x < width; x++)
                 {
-                    for(y = 0; y < bitmap.Height; y++)
+                    for(y = 0; y < height; y++)
                     {
                         Color pixelColor = bitmap.GetPixel(x, y);
                         // Switch colors
