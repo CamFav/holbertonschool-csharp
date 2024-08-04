@@ -54,13 +54,21 @@ namespace InventoryManagement.Tests
         public void JSONStorage_ShouldAddNewObject()
         {
             var storage = new JSONStorage();
-            var item = new Item("Test Item", 0.0f); // Adjust the parameters according to your Item constructor
+            var item = new Item("Test Item", 0.0f);
 
             storage.New(item);
+            storage.Save();  // Ensure data is written to file
+
+            // Reload the storage to ensure data is loaded from file
+            storage.Load();
 
             var allObjects = storage.All();
-            Assert.Contains("Item.item1", allObjects.Keys);
+            var itemKey = $"Item.{item.Id}";  // Use the item's ID for the key
+
+            // Verify that the item is stored correctly
+            Assert.IsTrue(allObjects.ContainsKey(itemKey), $"The item with key {itemKey} was not added correctly.");
         }
+
 
     }
 }
