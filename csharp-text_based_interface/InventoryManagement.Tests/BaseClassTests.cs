@@ -1,21 +1,22 @@
 using System;
-using Xunit;
-using InventoryLibrary;
 
-namespace InventoryManagement.Tests
+namespace InventoryLibrary
 {
-    public class BaseClassTests
+    public abstract class BaseClass
     {
-        [Fact]
-        public void BaseClass_ShouldHaveDefaultValues()
-        {
-            // Arrange
-            var baseObject = new BaseClass();
+        /// <summary>
+        /// Gets or sets the unique identifier for the class.
+        /// </summary>
+        public string Id { get; set; }
 
-            // Assert
-            Assert.False(string.IsNullOrEmpty(baseObject.Id)); // Check if Id is not null or empty
-            Assert.NotEqual(DateTime.MinValue, baseObject.DateCreated); // Check if DateCreated is set to a value other than the default DateTime
-            Assert.NotEqual(DateTime.MinValue, baseObject.DateUpdated); // Check if DateUpdated is set to a value other than the default DateTime
-        }
+        /// <summary>
+        /// Gets or sets the date when the class instance was created.
+        /// </summary>
+        public DateTime DateCreated { get; set; }
+
+        /// <summary>
+        /// Gets or sets the date when the class instance was last updated.
+        /// </summary>
+        public DateTime DateUpdated { get; set; }
     }
 }

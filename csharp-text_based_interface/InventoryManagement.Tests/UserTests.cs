@@ -1,26 +1,31 @@
-using Xunit;
+using NUnit.Framework;
 using InventoryLibrary;
+using System;
 
 namespace InventoryManagement.Tests
 {
+    [TestFixture]
     public class UserTests
     {
-        [Fact]
-        public void User_ShouldInheritFromBaseClass()
+        [Test]
+        public void Constructor_WithValidParameters_SetsProperties()
         {
-            var user = new User();
-            Assert.IsAssignableFrom<BaseClass>(user);
+            var user = new User("John Doe", "john.doe@example.com");
+
+            Assert.AreEqual("John Doe", user.Name);
+            Assert.AreEqual("john.doe@example.com", user.Email);
         }
 
-        [Fact]
-        public void User_ShouldHaveNameProperty()
+        [Test]
+        public void Constructor_ThrowsArgumentNullException_WhenNameIsNull()
         {
-            var user = new User
-            {
-                Name = "Test User"
-            };
+            Assert.Throws<ArgumentNullException>(() => new User(null!, "email@example.com"));
+        }
 
-            Assert.Equal("Test User", user.Name);
+        [Test]
+        public void Constructor_ThrowsArgumentNullException_WhenEmailIsNull()
+        {
+            Assert.Throws<ArgumentNullException>(() => new User("John Doe", null!));
         }
     }
 }

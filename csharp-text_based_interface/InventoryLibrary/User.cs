@@ -2,14 +2,15 @@ using System;
 
 namespace InventoryLibrary
 {
-    /// <summary>
-    /// Represents a user in the inventory system.
-    /// </summary>
     public class User : BaseClass
     {
-        /// <summary>
-        /// Gets or sets the name of the user.
-        /// </summary>
         public string Name { get; set; }
+        public string Email { get; set; }
+
+        public User(string name, string email)
+        {
+            Name = name ?? throw new ArgumentNullException(nameof(name));
+            Email = email ?? throw new ArgumentNullException(nameof(email));
+        }
     }
 }
