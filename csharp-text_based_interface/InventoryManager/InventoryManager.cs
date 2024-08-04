@@ -1,206 +1,271 @@
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using InventoryLibrary;
 
 namespace InventoryManager
 {
     class Program
     {
-        private static JSONStorage _storage = new JSONStorage();
+        private static JSONStorage _storage;
 
         static void Main(string[] args)
         {
-            try
+            _storage = new JSONStorage();
+            DisplayPrompt();
+
+            while (true)
             {
-                _storage.Load(); // Load data from JSON on start
+                Console.Write("> ");
+                var input = Console.ReadLine()?.Trim().ToLower();
+                if (string.IsNullOrEmpty(input)) continue;
 
-                while (true)
+                var commandParts = input.Split(' ', 2);
+                var command = commandParts[0];
+                var argument = commandParts.Length > 1 ? commandParts[1] : null;
+
+                switch (command)
                 {
-                    DisplayMenu();
-                    var input = Console.ReadLine();
-                    if (input == null) continue;
+                    case "classnames":
+                        PrintClassNames();
+                        break;
 
-                    var parts = input.Split(' ', 2);
-                    var command = parts[0].ToLower();
+                    case "all":
+                        if (string.IsNullOrEmpty(argument))
+                        {
+                            PrintAllObjects();
+                        }
+                        else
+                        {
+                            PrintAllObjects(argument);
+                        }
+                        break;
 
-                    switch (command)
-                    {
-                        case "classname":
-                            ShowClassNames();
-                            break;
-                        case "all":
-                            if (parts.Length == 1)
-                                ShowAllObjects();
-                            else
-                                ShowAllObjects(parts[1]);
-                            break;
-                        case "create":
-                            if (parts.Length == 1)
-                                CreateObject(parts[1]);
-                            else
-                                Console.WriteLine("Please provide a class name.");
-                            break;
-                        case "show":
-                            if (parts.Length == 2)
-                                ShowObject(parts[1]);
-                            else
-                                Console.WriteLine("Please provide an object ID.");
-                            break;
-                        case "update":
-                            if (parts.Length == 2)
-                                UpdateObject(parts[1]);
-                            else
-                                Console.WriteLine("Please provide an object ID.");
-                            break;
-                        case "delete":
-                            if (parts.Length == 2)
-                                DeleteObject(parts[1]);
-                            else
-                                Console.WriteLine("Please provide an object ID.");
-                            break;
-                        case "exit":
-                            _storage.Save(); // Save data to JSON before exiting
-                            return;
-                        default:
-                            Console.WriteLine("Invalid command.");
-                            break;
-                    }
+                    case "create":
+                        if (string.IsNullOrEmpty(argument))
+                        {
+                            Console.WriteLine("Usage: Create <ClassName>");
+                        }
+                        else
+                        {
+                            CreateObject(argument);
+                        }
+                        break;
+
+                    case "show":
+                        if (string.IsNullOrEmpty(argument))
+                        {
+                            Console.WriteLine("Usage: Show <ClassName> <id>");
+                        }
+                        else
+                        {
+                            ShowObject(argument);
+                        }
+                        break;
+
+                    case "update":
+                        if (string.IsNullOrEmpty(argument))
+                        {
+                            Console.WriteLine("Usage: Update <ClassName> <id>");
+                        }
+                        else
+                        {
+                            UpdateObject(argument);
+                        }
+                        break;
+
+                    case "delete":
+                        if (string.IsNullOrEmpty(argument))
+                        {
+                            Console.WriteLine("Usage: Delete <ClassName> <id>");
+                        }
+                        else
+                        {
+                            DeleteObject(argument);
+                        }
+                        break;
+
+                    case "exit":
+                        return;
+
+                    default:
+                        Console.WriteLine($"Unknown command: {command}");
+                        break;
+                }
+
+                DisplayPrompt();
+            }
+        }
+
+        private static void DisplayPrompt()
+        {
+            Console.WriteLine("\nInventory Manager");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("ClassNames: show all ClassNames of objects");
+            Console.WriteLine("All: show all objects");
+            Console.WriteLine("All <ClassName>: show all objects of a ClassName");
+            Console.WriteLine("Create <ClassName>: a new object");
+            Console.WriteLine("Show <ClassName> <id>: an object");
+            Console.WriteLine("Update <ClassName> <id>: an object");
+            Console.WriteLine("Delete <ClassName> <id>: an object");
+            Console.WriteLine("Exit: quit the application");
+        }
+
+        private static void PrintClassNames()
+        {
+            var classNames = new HashSet<string>();
+            foreach (var obj in _storage.All().Values)
+            {
+                classNames.Add(obj.GetType().Name);
+            }
+
+            if (classNames.Count == 0)
+            {
+                Console.WriteLine("No objects found.");
+            }
+            else
+            {
+                Console.WriteLine("Class Names:");
+                foreach (var className in classNames)
+                {
+                    Console.WriteLine($"- {className}");
                 }
             }
-            catch (Exception ex)
+        }
+
+        private static void PrintAllObjects()
+        {
+            if (_storage.All().Count == 0)
             {
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine("No objects found.");
+                return;
             }
-        }
 
-        private static void DisplayMenu()
-        {
-            Console.WriteLine("Inventory Manager");
-            Console.WriteLine("-------------------------");
-            Console.WriteLine("ClassNames - show all ClassNames of objects");
-            Console.WriteLine("All - show all objects");
-            Console.WriteLine("All [ClassName] - show all objects of a ClassName");
-            Console.WriteLine("Create [ClassName] - create a new object");
-            Console.WriteLine("Show [ClassName] [id] - show an object");
-            Console.WriteLine("Update [ClassName] [id] - update an object");
-            Console.WriteLine("Delete [ClassName] [id] - delete an object");
-            Console.WriteLine("Exit - quit the application");
-            Console.Write("Enter command: ");
-        }
-
-        private static void ShowClassNames()
-        {
-            var classNames = _storage.All().Keys.Select(key => key.Split('.')[0]).Distinct();
-            Console.WriteLine("Available classes: " + string.Join(", ", classNames));
-        }
-
-        private static void ShowAllObjects()
-        {
             foreach (var obj in _storage.All())
             {
                 Console.WriteLine($"{obj.Key}: {obj.Value}");
             }
         }
 
-        private static void ShowAllObjects(string className)
+        private static void PrintAllObjects(string className)
         {
-            var filtered = _storage.All().Where(kvp => kvp.Key.StartsWith(className + ".")).ToList();
-            if (filtered.Any())
+            if (string.IsNullOrEmpty(className))
             {
-                foreach (var obj in filtered)
+                Console.WriteLine("Invalid class name.");
+                return;
+            }
+
+            var found = false;
+            foreach (var obj in _storage.All())
+            {
+                if (obj.Key.StartsWith($"{className}."))
                 {
                     Console.WriteLine($"{obj.Key}: {obj.Value}");
+                    found = true;
                 }
             }
-            else
+
+            if (!found)
             {
-                Console.WriteLine($"No objects found for class {className}");
+                Console.WriteLine($"No objects of class {className} found.");
             }
         }
 
         private static void CreateObject(string className)
         {
-            // Handle creation based on className
-            Console.WriteLine($"Creating new object of class {className}");
-            if (className.Equals("user", StringComparison.OrdinalIgnoreCase))
+            // For simplicity, creating a new Item object. Adjust for other types as needed.
+            if (className.Equals("item", StringComparison.OrdinalIgnoreCase))
             {
-                Console.Write("Enter name: ");
-                var name = Console.ReadLine();
-                Console.Write("Enter email: ");
-                var email = Console.ReadLine();
-                if (name != null && email != null)
-                {
-                    var newUser = new User(name, email);
-                    _storage.New(newUser);
-                    _storage.Save();
-                }
-            }
-            else if (className.Equals("item", StringComparison.OrdinalIgnoreCase))
-            {
-                Console.Write("Enter name: ");
-                var name = Console.ReadLine();
-                Console.Write("Enter price: ");
-                if (float.TryParse(Console.ReadLine(), out var price))
-                {
-                    var newItem = new Item(name, price);
-                    _storage.New(newItem);
-                    _storage.Save();
-                }
-            }
-            else if (className.Equals("inventory", StringComparison.OrdinalIgnoreCase))
-            {
-                Console.Write("Enter user ID: ");
-                var userId = Console.ReadLine();
-                Console.Write("Enter item ID: ");
-                var itemId = Console.ReadLine();
-                Console.Write("Enter quantity: ");
-                if (int.TryParse(Console.ReadLine(), out var quantity))
-                {
-                    if (quantity < 0) quantity = 1; // enforce minimum quantity
-                    var newInventory = new Inventory(userId, itemId, quantity);
-                    _storage.New(newInventory);
-                    _storage.Save();
-                }
-            }
-            else
-            {
-                Console.WriteLine($"Class {className} is not recognized.");
-            }
-        }
-
-        private static void ShowObject(string classNameId)
-        {
-            if (_storage.All().TryGetValue(classNameId, out var obj))
-            {
-                Console.WriteLine($"{classNameId}: {obj}");
-            }
-            else
-            {
-                Console.WriteLine($"Object {classNameId} could not be found");
-            }
-        }
-
-        private static void UpdateObject(string classNameId)
-        {
-            // Implementation of object update based on classNameId
-            Console.WriteLine($"Updating object with ID {classNameId}");
-            // Example:
-            // var obj = _storage.All()[classNameId];
-            // Update properties
-            // _storage.Save();
-        }
-
-        private static void DeleteObject(string classNameId)
-        {
-            if (_storage.All().Remove(classNameId))
-            {
-                Console.WriteLine($"Deleted object {classNameId}");
+                var newItem = new Item("New Item", 0.0f);
+                _storage.New(newItem);
                 _storage.Save();
+                Console.WriteLine($"Created new {className} with ID {newItem.Id}.");
             }
             else
             {
-                Console.WriteLine($"Object {classNameId} could not be found");
+                Console.WriteLine($"{className} is not a valid object type.");
+            }
+        }
+
+        private static void ShowObject(string argument)
+        {
+            var parts = argument.Split(' ', 2);
+            if (parts.Length != 2)
+            {
+                Console.WriteLine("Usage: Show <ClassName> <id>");
+                return;
+            }
+
+            var className = parts[0];
+            var id = parts[1];
+            var key = $"{className}.{id}";
+
+            if (_storage.All().TryGetValue(key, out var obj))
+            {
+                Console.WriteLine(obj);
+            }
+            else
+            {
+                Console.WriteLine($"Object {id} could not be found.");
+            }
+        }
+
+        private static void UpdateObject(string argument)
+        {
+            var parts = argument.Split(' ', 2);
+            if (parts.Length != 2)
+            {
+                Console.WriteLine("Usage: Update <ClassName> <id>");
+                return;
+            }
+
+            var className = parts[0];
+            var id = parts[1];
+            var key = $"{className}.{id}";
+
+            if (_storage.All().TryGetValue(key, out var obj))
+            {
+                // For simplicity, assume updating the name of an Item object.
+                if (obj is Item item)
+                {
+                    Console.Write("Enter new name: ");
+                    var newName = Console.ReadLine();
+                    item.Name = newName;
+                    item.DateUpdated = DateTime.UtcNow; // Update the date as well
+                    _storage.Save();
+                    Console.WriteLine($"Updated {className} with ID {id}.");
+                }
+                else
+                {
+                    Console.WriteLine($"Cannot update object of type {className}.");
+                }
+            }
+            else
+            {
+                Console.WriteLine($"Object {id} could not be found.");
+            }
+        }
+
+        private static void DeleteObject(string argument)
+        {
+            var parts = argument.Split(' ', 2);
+            if (parts.Length != 2)
+            {
+                Console.WriteLine("Usage: Delete <ClassName> <id>");
+                return;
+            }
+
+            var className = parts[0];
+            var id = parts[1];
+            var key = $"{className}.{id}";
+
+            if (_storage.All().Remove(key))
+            {
+                _storage.Save();
+                Console.WriteLine($"Deleted {className} with ID {id}.");
+            }
+            else
+            {
+                Console.WriteLine($"Object {id} could not be found.");
             }
         }
     }
