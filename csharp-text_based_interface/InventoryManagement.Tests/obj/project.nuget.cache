@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "n3zrkvhlDhY=",
+  "dgSpecHash": "gZEw9j4q4sA=",
   "success": true,
   "projectFilePath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManagement.Tests/InventoryManagement.Tests.csproj",
   "expectedPackageFiles": [
@@ -14,7 +14,9 @@
     "/home/camille/.nuget/packages/nuget.frameworks/5.11.0/nuget.frameworks.5.11.0.nupkg.sha512",
     "/home/camille/.nuget/packages/nunit/3.13.3/nunit.3.13.3.nupkg.sha512",
     "/home/camille/.nuget/packages/nunit3testadapter/4.2.1/nunit3testadapter.4.2.1.nupkg.sha512",
-    "/home/camille/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+    "/home/camille/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512",
+    "/home/camille/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/home/camille/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

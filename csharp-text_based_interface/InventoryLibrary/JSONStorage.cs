@@ -2,17 +2,18 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using InventoryLibrary;
+using System.Text.Json.Serialization;
 
 namespace InventoryLibrary
 {
     /// <summary>
-    /// Manages the storage of <see cref="BaseClass"/> objects in a JSON file.
+    /// Manages storage of <see cref="BaseClass"/> objects in a JSON file.
     /// </summary>
     public class JSONStorage
     {
         private readonly string _filePath = "storage/inventory_manager.json";
+        private readonly JsonSerializerOptions _jsonOptions;
 
         /// <summary>
         /// Gets the dictionary of stored objects, keyed by their type and identifier.
@@ -25,6 +26,11 @@ namespace InventoryLibrary
         public JSONStorage()
         {
             Objects = new Dictionary<string, BaseClass>();
+            _jsonOptions = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Converters = { new JsonStringEnumConverter() } // Add custom converters if necessary
+            };
             Load();
         }
 
@@ -43,40 +49,52 @@ namespace InventoryLibrary
         /// <param name="obj">The object to add.</param>
         public void New(BaseClass obj)
         {
+            if (obj == null)
+                throw new ArgumentNullException(nameof(obj));
+
             Objects[$"{obj.GetType().Name}.{obj.Id}"] = obj;
         }
 
         /// <summary>
-        /// Saves all stored objects to the JSON file.
+        /// Serializes and saves all stored objects to a JSON file.
         /// </summary>
         public void Save()
         {
-            Directory.CreateDirectory(Path.GetDirectoryName(_filePath));
-            var options = new JsonSerializerOptions
+            try
             {
-                WriteIndented = true,
-                Converters = { new JsonStringEnumConverter() }
-            };
-            var json = JsonSerializer.Serialize(Objects, options);
-            File.WriteAllText(_filePath, json);
+                Directory.CreateDirectory(Path.GetDirectoryName(_filePath) ?? string.Empty);
+                var json = JsonSerializer.Serialize(Objects, _jsonOptions);
+                File.WriteAllText(_filePath, json);
+            }
+            catch (Exception ex)
+            {
+                // Handle exceptions (e.g., log the error)
+                Console.WriteLine($"Error saving data: {ex.Message}");
+            }
         }
 
         /// <summary>
-        /// Loads objects from the JSON file.
+        /// Loads and deserializes objects from a JSON file.
         /// </summary>
         public void Load()
         {
-            if (File.Exists(_filePath))
+            try
             {
-                var json = File.ReadAllText(_filePath);
-                var options = new JsonSerializerOptions
+                if (File.Exists(_filePath))
                 {
-                    Converters = { new JsonStringEnumConverter() }
-                };
-                Objects = JsonSerializer.Deserialize<Dictionary<string, BaseClass>>(json, options) ?? new Dictionary<string, BaseClass>();
+                    var json = File.ReadAllText(_filePath);
+                    Objects = JsonSerializer.Deserialize<Dictionary<string, BaseClass>>(json, _jsonOptions)
+                               ?? new Dictionary<string, BaseClass>();
+                }
+                else
+                {
+                    Objects = new Dictionary<string, BaseClass>();
+                }
             }
-            else
+            catch (Exception ex)
             {
+                // Handle exceptions (e.g., log the error)
+                Console.WriteLine($"Error loading data: {ex.Message}");
                 Objects = new Dictionary<string, BaseClass>();
             }
         }
