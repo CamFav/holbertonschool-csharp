@@ -8,10 +8,9 @@ namespace InventoryLibrary
 {
     public class JSONStorage
     {
-        // Property to store the objects in memory
         public Dictionary<string, BaseClass> objects { get; set; }
 
-        // Path to the JSON file where data will be stored
+        // Path to the JSON file
         private string filePath = "storage/inventory_manager.json";
 
         public JSONStorage()
@@ -39,7 +38,11 @@ namespace InventoryLibrary
             Directory.CreateDirectory(Path.GetDirectoryName(filePath));
             
             // Serialize the objects dictionary to JSON and write to file
-            var options = new JsonSerializerOptions { WriteIndented = true };
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true,
+                Converters = { new JsonStringEnumConverter() }
+            };
             string jsonString = JsonSerializer.Serialize(objects, options);
             File.WriteAllText(filePath, jsonString);
         }
