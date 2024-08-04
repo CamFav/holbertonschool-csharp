@@ -58,9 +58,9 @@ namespace InventoryLibrary
 
             var options = new JsonSerializerOptions
             {
-                WriteIndented = true,
-                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-                Converters = { new JsonStringEnumConverter(), new BaseClassConverter() }
+                WriteIndented = true, // Makes the output JSON more readable
+                DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull, // Ignores null properties during serialization
+                Converters = { new JsonStringEnumConverter(), new BaseClassConverter() } // Converts enums and base class types
             };
 
             var json = JsonSerializer.Serialize(Objects, options);
