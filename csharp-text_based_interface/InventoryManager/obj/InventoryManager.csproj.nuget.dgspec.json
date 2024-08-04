@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManager/InventoryManager.csproj": {}
+  },
+  "projects": {
+    "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj",
+        "projectName": "InventoryLibrary",
+        "projectPath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj",
+        "packagesPath": "/home/camille/.nuget/packages/",
+        "outputPath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/camille/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/248/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManager/InventoryManager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManager/InventoryManager.csproj",
+        "projectName": "InventoryManager",
+        "projectPath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManager/InventoryManager.csproj",
+        "packagesPath": "/home/camille/.nuget/packages/",
+        "outputPath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryManager/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/camille/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj": {
+                "projectPath": "/home/camille/holbertonschool-csharp/csharp-text_based_interface/InventoryLibrary/InventoryLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/248/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
