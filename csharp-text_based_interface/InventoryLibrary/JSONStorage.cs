@@ -24,7 +24,7 @@ namespace InventoryLibrary
         public JSONStorage()
         {
             Objects = new Dictionary<string, BaseClass>();
-            Load();
+            Load(); // Load the existing data (if any) from the JSON file
         }
 
         /// <summary>
@@ -42,21 +42,27 @@ namespace InventoryLibrary
         /// <param name="obj">The object to be added.</param>
         public void New(BaseClass obj)
         {
-            Objects[$"{obj.GetType().Name}.{obj.Id}"] = obj;
+            if (obj == null) throw new ArgumentNullException(nameof(obj));
+
+            string key = $"{obj.GetType().Name}.{obj.Id}";
+            Objects[key] = obj;
         }
 
         /// <summary>
         /// Saves the current state of the storage to a JSON file.
         /// </summary>
-         public void Save()
+        public void Save()
         {
+            // Ensure the directory exists
             Directory.CreateDirectory(Path.GetDirectoryName(_filePath) ?? string.Empty);
+
             var options = new JsonSerializerOptions
             {
                 WriteIndented = true,
                 DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
                 Converters = { new JsonStringEnumConverter(), new BaseClassConverter() }
             };
+
             var json = JsonSerializer.Serialize(Objects, options);
             File.WriteAllText(_filePath, json);
         }
@@ -66,34 +72,33 @@ namespace InventoryLibrary
         /// </summary>
         public void Load()
         {
-        if (File.Exists(_filePath))
-        {
-            try
+            if (File.Exists(_filePath))
             {
-                var json = File.ReadAllText(_filePath);
-                Console.WriteLine("Loaded JSON:");
-                Console.WriteLine(json);
-
-                var options = new JsonSerializerOptions
+                try
                 {
-                    Converters = { new JsonStringEnumConverter(), new BaseClassConverter() }
-                };
+                    var json = File.ReadAllText(_filePath);
+                    Console.WriteLine("Loaded JSON:");
+                    Console.WriteLine(json);
 
-                Objects = JsonSerializer.Deserialize<Dictionary<string, BaseClass>>(json, options) ?? new Dictionary<string, BaseClass>();
+                    var options = new JsonSerializerOptions
+                    {
+                        Converters = { new JsonStringEnumConverter(), new BaseClassConverter() }
+                    };
+
+                    Objects = JsonSerializer.Deserialize<Dictionary<string, BaseClass>>(json, options) ?? new Dictionary<string, BaseClass>();
+                }
+                catch (JsonException ex)
+                {
+                    Console.WriteLine("Error parsing JSON:");
+                    Console.WriteLine(ex.Message);
+                    Objects = new Dictionary<string, BaseClass>();
+                }
             }
-            catch (JsonException ex)
+            else
             {
-                Console.WriteLine("Error parsing JSON:");
-                Console.WriteLine(ex.Message);
+                // If the file does not exist, initialize with an empty dictionary
                 Objects = new Dictionary<string, BaseClass>();
             }
         }
-        else
-        {
-            Objects = new Dictionary<string, BaseClass>();
-        }
-    }
-
-
     }
 }
