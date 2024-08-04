@@ -4,10 +4,17 @@ using InventoryLibrary;
 
 namespace InventoryManager
 {
+    /// <summary>
+    /// Main class for the Inventory Manager console application.
+    /// </summary>
     class Program
     {
         private static JSONStorage _storage;
 
+        /// <summary>
+        /// Entry point of the console application.
+        /// </summary>
+        /// <param name="args">Command-line arguments.</param>
         static void Main(string[] args)
         {
             _storage = new JSONStorage();
@@ -96,6 +103,9 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Displays the command prompt with available commands and their usage.
+        /// </summary>
         private static void DisplayPrompt()
         {
             Console.WriteLine("\nInventory Manager");
@@ -110,6 +120,9 @@ namespace InventoryManager
             Console.WriteLine("Exit: quit the application");
         }
 
+        /// <summary>
+        /// Prints all unique class names of objects currently in the storage.
+        /// </summary>
         private static void PrintClassNames()
         {
             var classNames = new HashSet<string>();
@@ -132,6 +145,9 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Prints all objects currently in the storage.
+        /// </summary>
         private static void PrintAllObjects()
         {
             if (_storage.All().Count == 0)
@@ -146,6 +162,10 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Prints all objects of the specified class name.
+        /// </summary>
+        /// <param name="className">The class name of objects to display.</param>
         private static void PrintAllObjects(string className)
         {
             if (string.IsNullOrEmpty(className))
@@ -170,9 +190,13 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Creates a new object of the specified class name and adds it to storage.
+        /// </summary>
+        /// <param name="className">The class name of the object to create.</param>
         private static void CreateObject(string className)
         {
-            // For simplicity, creating a new Item object. Adjust for other types as needed.
+            // Fcreating a new Item object.
             if (className.Equals("item", StringComparison.OrdinalIgnoreCase))
             {
                 var newItem = new Item("New Item", 0.0f);
@@ -186,6 +210,10 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Displays the object with the specified class name and ID.
+        /// </summary>
+        /// <param name="argument">The class name and ID of the object to show.</param>
         private static void ShowObject(string argument)
         {
             var parts = argument.Split(' ', 2);
@@ -209,6 +237,10 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Updates the properties of the object with the specified class name and ID.
+        /// </summary>
+        /// <param name="argument">The class name and ID of the object to update.</param>
         private static void UpdateObject(string argument)
         {
             var parts = argument.Split(' ', 2);
@@ -224,7 +256,7 @@ namespace InventoryManager
 
             if (_storage.All().TryGetValue(key, out var obj))
             {
-                // For simplicity, assume updating the name of an Item object.
+                // updating the name of an Item object.
                 if (obj is Item item)
                 {
                     Console.Write("Enter new name: ");
@@ -245,6 +277,10 @@ namespace InventoryManager
             }
         }
 
+        /// <summary>
+        /// Deletes the object with the specified class name and ID from storage.
+        /// </summary>
+        /// <param name="argument">The class name and ID of the object to delete.</param>
         private static void DeleteObject(string argument)
         {
             var parts = argument.Split(' ', 2);
