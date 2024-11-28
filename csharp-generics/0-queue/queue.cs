@@ -1,6 +1,4 @@
-﻿using System;
-
-public class Queue<T>
+﻿public class Queue<T>
 {
     /// <summary>
     /// Returns the type of the generic parameter T.
