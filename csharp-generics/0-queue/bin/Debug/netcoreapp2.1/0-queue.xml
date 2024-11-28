@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>0-queue</name>
+    </assembly>
+    <members>
+        <member name="M:Queue`1.CheckType">
+            <summary>
+            Returns the type of the generic parameter T.
+            </summary>
+            <returns>String representing the type of T.</returns>
+        </member>
+    </members>
+</doc>
