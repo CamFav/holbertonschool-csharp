@@ -1,4 +1,6 @@
+/home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue.deps.json
+/home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue.runtimeconfig.json
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue.dll
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue.pdb
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/0-queue.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,7 +11,5 @@
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/0-queue.dll
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/refint/0-queue.dll
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/0-queue.pdb
-/home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/ref/0-queue.dll
-/home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue
-/home/camille/holbertonschool-csharp/csharp-generics/0-queue/bin/Debug/net8.0/0-queue.runtimeconfig.json
 /home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/0-queue.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-generics/0-queue/obj/Debug/net8.0/ref/0-queue.dll
