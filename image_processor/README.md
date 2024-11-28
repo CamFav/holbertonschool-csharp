@@ -1,64 +1,23 @@
-# Image Processor
+What you should learn
 
-![Project badge](https://img.shields.io/badge/C%23-Image_Processor-brightgreen)
+At the end of this project you are expected to be able to explain to anyone, without the help of Google:
 
-**By: Carrie Ybay**, Software Engineer at Holberton School
+    What is parallel programming?
+    What is concurrency?
+    What is threading?
+    When is it appropriate to use multiple threads? When is it not?
+    How do you create, start, pause, resume, and abort threads?
+    What are threading best practices?
+    What is meant by ‘thread-safe’?
+    What is the difference between processes and threads?
+    What kind of applications benefit from multithreading? What applications don’t?
 
----
+Requirements for C# projects
 
-## Table of Contents
-- [Concepts](#concepts)
-- [Resources](#resources)
-- [Learning Objectives](#learning-objectives)
-- [Requirements](#requirements)
-- [Task List](#task-list)
-
----
-
-## Concepts
-- Parallel Programming
-- Concurrency
-- Threading
-- System.Drawing Namespace
-
----
-
-## Resources
-Read or watch:
-- [Parallel Programming](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
-- [Asynchronous programming with async and await](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/async/)
-- [System.Drawing Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.drawing?view=dotnet-plat-ext-6.0)
-- [Introduction to C# and .NET](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/)
-- [Multithreading in C#](https://docs.microsoft.com/en-us/dotnet/standard/threading/)
-
----
-
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-- What is parallel programming?
-- What is concurrency?
-- What is threading?
-- When is it appropriate to use multiple threads? When is it not?
-- How do you create, start, pause, resume, and abort threads?
-- What are threading best practices?
-- What is meant by ‘thread-safe’?
-- What is the difference between processes and threads?
-- What kind of applications benefit from multithreading? What applications don’t?
-
----
-
-## Task List
-
-| Filename                  | Description                                                                                              |
-|---------------------------|----------------------------------------------------------------------------------------------------------|
-| `ImageProcessor.cs`       | Contains methods to perform various image processing tasks.                                              |
-| `ImageProcessor.csproj`   | Project file to manage dependencies and project metadata.                                                |
-| `main.cs`                 | Example main file to test the functionality of the image processing methods.                              |
-
----
-
-## Contact
-
-You can reach out to me on LinkedIn:
-
-[![LinkedIn](https://img.shields.io/badge/-CamilleFavriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/camille-favriel-503223245/)](https://www.linkedin.com/in/camille-favriel-503223245/)
+    Allowed editors: Visual Studio Code
+    All files will be compiled on Ubuntu 14.04 LTS using dotnet
+    A README.md file, at the root of the folder of the project, is mandatory
+    You do not need to push your obj/ or bin/ folders
+    In the following examples, the main.cs files are shown as examples. You can use them to test your functions, but you don’t have to push them to your repo (if you do we won’t take them into account). We will use our own main.cs files at compilation. Our main.cs files might be different from the one shown in the examples
+    All your public classes and their members should have XML documentation tags
+    All your private classes and members should be documented but without XML documentation tags
