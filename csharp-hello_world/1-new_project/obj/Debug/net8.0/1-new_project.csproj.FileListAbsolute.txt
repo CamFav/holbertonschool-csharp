@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net8.0/1-new_project
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net8.0/1-new_project.deps.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net8.0/1-new_project.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net8.0/1-new_project.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/bin/Debug/net8.0/1-new_project.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/refint/1-new_project.dll
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.pdb
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/1-new_project.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-hello_world/1-new_project/obj/Debug/net8.0/ref/1-new_project.dll

@@ -21,25 +21,22 @@ namespace InventoryLibrary
 
         return type switch
         {
-            "Item" => JsonSerializer.Deserialize<Item>(root.GetRawText(), options),
-            "Inventory" => JsonSerializer.Deserialize<Inventory>(root.GetRawText(), options),
-            "User" => JsonSerializer.Deserialize<User>(root.GetRawText(), options),
+            "Item" => JsonSerializer.Deserialize<Item>(root.GetRawText(), options) as BaseClass,
+            "Inventory" => JsonSerializer.Deserialize<Inventory>(root.GetRawText(), options) as BaseClass,
+            "User" => JsonSerializer.Deserialize<User>(root.GetRawText(), options) as BaseClass,
             _ => throw new NotSupportedException($"Type '{type}' is not supported.")
-        };
+        } ?? throw new JsonException("Deserialization resulted in a null object.");
     }
 }
 
 
         public override void Write(Utf8JsonWriter writer, BaseClass value, JsonSerializerOptions options)
         {
-            // Write the object as a JSON object with a 'Type' property
             writer.WriteStartObject();
             writer.WriteString("Type", value.GetType().Name);
 
-            // Serialize the specific object without additional wrapping
             var json = JsonSerializer.Serialize(value, value.GetType(), options);
 
-            // Parse the serialized JSON and write the raw value to avoid extra braces
             using (JsonDocument doc = JsonDocument.Parse(json))
             {
                 foreach (var property in doc.RootElement.EnumerateObject())

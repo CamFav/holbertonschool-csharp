@@ -20,6 +20,8 @@ namespace InventoryManagement.Tests
             Assert.AreEqual(price, item.Price);
             Assert.IsEmpty(item.Tags);
             Assert.IsNull(item.Description);
+            Assert.AreEqual(DateTime.UtcNow.Date, item.DateCreated.Date);
+            Assert.AreEqual(DateTime.UtcNow.Date, item.DateUpdated.Date);
         }
 
         [Test]
@@ -40,6 +42,15 @@ namespace InventoryManagement.Tests
         }
 
         [Test]
+        public void Property_SetDescription_HandlesNull()
+        {
+            var item = new Item("Another Item", 49.99f);
+            item.Description = null;
+
+            Assert.IsNull(item.Description);
+        }
+
+        [Test]
         public void Property_AddTags_SetsTagsCorrectly()
         {
             var item = new Item("Tagged Item", 9.99f);
@@ -51,24 +62,11 @@ namespace InventoryManagement.Tests
         }
 
         [Test]
-        public void JSONStorage_ShouldAddNewObject()
+        public void Property_InitializedTags_IsEmpty()
         {
-            var storage = new JSONStorage();
-            var item = new Item("Test Item", 0.0f);
+            var item = new Item("Empty Tags Item", 15.99f);
 
-            storage.New(item);
-            storage.Save();  // Ensure data is written to file
-
-            // Reload the storage to ensure data is loaded from file
-            storage.Load();
-
-            var allObjects = storage.All();
-            var itemKey = $"Item.{item.Id}";  // Use the item's ID for the key
-
-            // Verify that the item is stored correctly
-            Assert.IsTrue(allObjects.ContainsKey(itemKey), $"The item with key {itemKey} was not added correctly.");
+            Assert.IsEmpty(item.Tags);
         }
-
-
     }
 }

@@ -1,11 +1,12 @@
 using System;
 
+
 namespace InventoryLibrary
 {
     /// <summary>
     /// Represents a base class for entities with an identifier and timestamp information.
     /// </summary>
-    public class BaseClass
+    public abstract class BaseClass
     {
         /// <summary>
         /// Gets or sets the unique identifier for the entity.
@@ -15,12 +16,12 @@ namespace InventoryLibrary
         /// <summary>
         /// Gets or sets the date and time when the entity was created.
         /// </summary>
-        public DateTime DateCreated { get; set; }
+        public DateTime DateCreated { get; set; } = DateTime.MinValue;
 
         /// <summary>
         /// Gets or sets the date and time when the entity was last updated.
         /// </summary>
-        public DateTime DateUpdated { get; set; }
+        public DateTime DateUpdated { get; set; } = DateTime.MinValue;
 
         /// <summary>
         /// Initializes a new instance of the <see cref="BaseClass"/> class with a new identifier and current timestamps.
@@ -28,7 +29,7 @@ namespace InventoryLibrary
         public BaseClass()
         {
             Id = Guid.NewGuid().ToString();
-            DateCreated = DateTime.Now;
+            DateCreated = default(DateTime);
             DateUpdated = DateTime.Now;
         }
     }
