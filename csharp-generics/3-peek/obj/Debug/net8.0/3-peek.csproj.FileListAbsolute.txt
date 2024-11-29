@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/bin/Debug/net8.0/3-peek
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/bin/Debug/net8.0/3-peek.deps.json
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/bin/Debug/net8.0/3-peek.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/bin/Debug/net8.0/3-peek.dll
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/bin/Debug/net8.0/3-peek.pdb
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.dll
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/refint/3-peek.dll
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.pdb
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/3-peek.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-generics/3-peek/obj/Debug/net8.0/ref/3-peek.dll
