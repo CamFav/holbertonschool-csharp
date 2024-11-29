@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/bin/Debug/net8.0/4-print
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/bin/Debug/net8.0/4-print.deps.json
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/bin/Debug/net8.0/4-print.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/bin/Debug/net8.0/4-print.dll
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/bin/Debug/net8.0/4-print.pdb
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.dll
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/refint/4-print.dll
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.pdb
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/4-print.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-generics/4-print/obj/Debug/net8.0/ref/4-print.dll
