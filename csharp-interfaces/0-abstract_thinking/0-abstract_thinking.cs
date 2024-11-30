@@ -10,7 +10,11 @@ public abstract class Base
     /// </summary>
     public string name { get; set; }
 
-    // Retrieves the type of the derived class and formats the string
+    /// <summary>
+    /// Retrieves the type of the derived class and
+    /// formats the string
+    /// </summary>
+    /// <returns> A string in the format: "name is a type". </returns>
     public override string ToString()
     {
         return $"{name} is a {this.GetType().Name}";
