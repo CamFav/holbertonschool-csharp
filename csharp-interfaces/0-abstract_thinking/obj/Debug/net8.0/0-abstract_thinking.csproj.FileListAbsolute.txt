@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/bin/Debug/net8.0/0-abstract_thinking
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/bin/Debug/net8.0/0-abstract_thinking.deps.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/bin/Debug/net8.0/0-abstract_thinking.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/bin/Debug/net8.0/0-abstract_thinking.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/bin/Debug/net8.0/0-abstract_thinking.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/refint/0-abstract_thinking.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/0-abstract_thinking.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/0-abstract_thinking/obj/Debug/net8.0/ref/0-abstract_thinking.dll
