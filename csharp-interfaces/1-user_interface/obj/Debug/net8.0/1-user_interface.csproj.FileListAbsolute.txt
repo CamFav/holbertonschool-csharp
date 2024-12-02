@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/bin/Debug/net8.0/1-user_interface
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/bin/Debug/net8.0/1-user_interface.deps.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/bin/Debug/net8.0/1-user_interface.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/bin/Debug/net8.0/1-user_interface.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/bin/Debug/net8.0/1-user_interface.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/refint/1-user_interface.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/1-user_interface.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/1-user_interface/obj/Debug/net8.0/ref/1-user_interface.dll
