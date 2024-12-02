@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/bin/Debug/net8.0/2-doors
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/bin/Debug/net8.0/2-doors.deps.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/bin/Debug/net8.0/2-doors.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/bin/Debug/net8.0/2-doors.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/bin/Debug/net8.0/2-doors.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/refint/2-doors.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/2-doors.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/2-doors/obj/Debug/net8.0/ref/2-doors.dll
