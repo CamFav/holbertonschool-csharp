@@ -161,6 +161,9 @@ public class Decoration : Base, IInteractive, IBreakable
     }
 }
 
+/// <summary>
+/// Key class inheriting from Base and implementing ICollectable.
+/// </summary>
 public class Key : Base, ICollectable
 {
     /// <summary>
