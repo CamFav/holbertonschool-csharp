@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/bin/Debug/net8.0/3-decorations
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/bin/Debug/net8.0/3-decorations.deps.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/bin/Debug/net8.0/3-decorations.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/bin/Debug/net8.0/3-decorations.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/bin/Debug/net8.0/3-decorations.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/refint/3-decorations.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/3-decorations.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/3-decorations/obj/Debug/net8.0/ref/3-decorations.dll
