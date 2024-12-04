@@ -169,10 +169,10 @@ public class Key : Base, ICollectable
     public bool isCollected { get; set; }
 
     /// <summary>
-    /// 
+    /// Constructor to initialize the key with specified or default values.
     /// </summary>
-    /// <param name="name"></param>
-    /// <param name="isCollected"></param>
+    /// <param name="name">The name of the key.</param>
+    /// <param name="isCollected">Indicates if the key is collected.</param>
     public Key(string name = "Key", bool isCollected = false)
     {
         this.name = name;
@@ -180,7 +180,7 @@ public class Key : Base, ICollectable
     }
 
     /// <summary>
-    /// 
+    /// Method to collect the key.
     /// </summary>
     public void Collect()
     {
