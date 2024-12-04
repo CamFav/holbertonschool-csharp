@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/bin/Debug/net8.0/5-iterate_act
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/bin/Debug/net8.0/5-iterate_act.deps.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/bin/Debug/net8.0/5-iterate_act.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/bin/Debug/net8.0/5-iterate_act.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/bin/Debug/net8.0/5-iterate_act.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/refint/5-iterate_act.dll
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.pdb
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/5-iterate_act.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-interfaces/5-iterate_act/obj/Debug/net8.0/ref/5-iterate_act.dll
