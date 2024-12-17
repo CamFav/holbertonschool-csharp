@@ -229,7 +229,7 @@ public class Player
 
         if (e.currentHp <= (this.maxHp * 0.25))
         {
-            HPValueWarning(this, e);
+            HPValueWarning(HPCheck, e);
         }
     }
 }
