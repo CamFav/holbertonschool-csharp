@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/bin/Debug/net8.0/1-damage_delegation
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/bin/Debug/net8.0/1-damage_delegation.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/bin/Debug/net8.0/1-damage_delegation.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/bin/Debug/net8.0/1-damage_delegation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/bin/Debug/net8.0/1-damage_delegation.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/refint/1-damage_delegation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/1-damage_delegation.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/1-damage_delegation/obj/Debug/net8.0/ref/1-damage_delegation.dll
