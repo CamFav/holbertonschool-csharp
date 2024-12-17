@@ -1,30 +1,30 @@
 ﻿using System;
 
 /// <summary>
-/// 
+/// Player with a name, maximum health, and current health
 /// </summary>
 public class Player
 {
     /// <summary>
-    /// 
+    /// Name of the Player
     /// </summary>
     private string name { get; set; }
 
     /// <summary>
-    /// 
+    /// Maximum health
     /// </summary>
     private float maxHp { get; set; }
 
     /// <summary>
-    /// 
+    /// Current health
     /// </summary>
     private float hp { get; set; }
 
     /// <summary>
-    /// 
+    /// Initializes new instance of the Player
     /// </summary>
-    /// <param name="name"></param>
-    /// <param name="maxHp"></param>
+    /// <param name="name">The name of the Player</param>
+    /// <param name="maxHp">The maximum health of the player</param>
     public Player(string name = "Player", float maxHp = 100f)
     {
         this.name = name;
@@ -43,7 +43,7 @@ public class Player
     }
 
     /// <summary>
-    /// 
+    /// Prints player name with his current health status
     /// </summary>
     public void PrintHealth()
     {
