@@ -227,7 +227,7 @@ public class Player
     /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
     private void OnCheckStatus(CurrentHPArgs e)
     {
-        HPCheck?.Invoke(this, e);
+        CheckStatus(HPCheck, e);
 
         if (e.currentHp <= (this.maxHp * 0.25))
         {
