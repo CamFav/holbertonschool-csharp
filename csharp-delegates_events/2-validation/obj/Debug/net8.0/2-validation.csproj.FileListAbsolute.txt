@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/bin/Debug/net8.0/2-validation
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/bin/Debug/net8.0/2-validation.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/bin/Debug/net8.0/2-validation.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/bin/Debug/net8.0/2-validation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/bin/Debug/net8.0/2-validation.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/refint/2-validation.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/2-validation.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/2-validation/obj/Debug/net8.0/ref/2-validation.dll
