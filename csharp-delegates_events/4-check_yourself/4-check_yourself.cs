@@ -181,11 +181,11 @@ public class Player
     }
 
     /// <summary>
-    /// 
+    /// Handles the HPCheck event: prints the current status.
     /// </summary>
-    /// <param name="sender"></param>
-    /// <param name="e"></param>
-    private void CheckStatus(object? sender, CurrentHPArgs e)
+    /// <param name="sender">Event source</param>
+    /// <param name="e">Event data</param>
+    private void CheckStatus(object sender, CurrentHPArgs e)
     {
         if (e.currentHp == maxHp)
             status = $"{name} is in perfect health!";
