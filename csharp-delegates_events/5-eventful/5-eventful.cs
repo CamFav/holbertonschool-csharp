@@ -90,7 +90,6 @@ public class Player
         }
 
         HPCheck += CheckStatus;
-        HPCheck += HPValueWarning;
     }
 
     /// <summary>
@@ -228,11 +227,11 @@ public class Player
     /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
     private void OnCheckStatus(CurrentHPArgs e)
     {
-        CheckStatus(HPCheck, e);
+        HPCheck?.Invoke(this, e);
 
         if (e.currentHp <= (this.maxHp * 0.25))
         {
-            HPValueWarning(HPCheck, e);
+            HPValueWarning(this, e);
         }
     }
 }
