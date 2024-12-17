@@ -84,6 +84,7 @@ public class Player
         }
 
         this.hp = this.maxHp;
+
         if (status == "Undefined")
         {
             this.status = $"{name} is ready to go!";
@@ -128,7 +129,6 @@ public class Player
         if (heal < 0)
         {
             Console.WriteLine($"{name} heals 0 HP!");
-            ValidateHP(hp);
         }
         else
         {
@@ -208,17 +208,16 @@ public class Player
     /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
     private void HPValueWarning(object sender, CurrentHPArgs e)
     {
+        Console.ForegroundColor = ConsoleColor.Red;
         if (e.currentHp == 0)
         {
-            Console.ForegroundColor = ConsoleColor.Red; // Change text color to red
             Console.WriteLine("Health has reached zero!");
         }
         else
         {
-            Console.ForegroundColor = ConsoleColor.Yellow; // Change text color to yellow
             Console.WriteLine("Health is low!");
         }
-        Console.ResetColor(); // Reset console color back to default
+        Console.ForegroundColor = ConsoleColor.White;
     }
 
     /// <summary>
