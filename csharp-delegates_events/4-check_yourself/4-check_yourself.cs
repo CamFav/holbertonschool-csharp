@@ -30,6 +30,11 @@ public enum Modifier
 public delegate float CalculateModifier(float baseValue, Modifier modifier);
 
 /// <summary>
+/// Delegate to calculate health changes.
+/// </summary>
+public delegate void CalculateHealth(float amount);
+
+/// <summary>
 /// Player with a name, maximum health, and current health
 /// </summary>
 public class Player
@@ -58,11 +63,6 @@ public class Player
     /// Event triggered when the player's HP is validated.
     /// </summary>
     public event EventHandler<CurrentHPArgs> HPCheck;
-
-    /// <summary>
-    /// Delegate to calculate health changes.
-    /// </summary>
-    public delegate void CalculateHealth(float amount);
 
     /// <summary>
     /// Initializes new instance of the Player
@@ -114,7 +114,7 @@ public class Player
         else
         {
             Console.WriteLine($"{name} takes {damage} damage!");
-            float newHp = hp - damage;
+            float newHp = Math.Max(hp - damage, 0);
             ValidateHP(newHp);
         }
     }
@@ -133,7 +133,7 @@ public class Player
         else
         {
             Console.WriteLine($"{name} heals {heal} HP!");
-            float newHp = hp + heal;
+            float newHp = Math.Min(hp + heal, maxHp);
             ValidateHP(newHp);
         }
     }
@@ -156,7 +156,7 @@ public class Player
         {
             this.hp = newHp;
         }
-        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
+        HPCheck?.Invoke(this, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
@@ -170,7 +170,7 @@ public class Player
         switch (modifier)
         {
             case Modifier.Weak:
-                return baseValue / 2;
+                return baseValue * 0.5f;
             case Modifier.Base:
                 return baseValue;
             case Modifier.Strong:
