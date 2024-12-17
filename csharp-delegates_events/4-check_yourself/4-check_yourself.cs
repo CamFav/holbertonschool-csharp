@@ -156,7 +156,7 @@ public class Player
         {
             this.hp = newHp;
         }
-        HPCheck?.Invoke(this, new CurrentHPArgs(this.hp));
+        CheckStatus(HPCheck, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
@@ -210,7 +210,7 @@ public class CurrentHPArgs : EventArgs
     /// <summary>
     /// Gets the current HP value
     /// </summary>
-    public float currentHp { get; }
+    public readonly float currentHp;
 
     /// <summary>
     /// Initializes a new instance of the CurrentHPArgs class
