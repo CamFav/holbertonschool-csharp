@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/bin/Debug/net8.0/3-modified_behavior
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/bin/Debug/net8.0/3-modified_behavior.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/bin/Debug/net8.0/3-modified_behavior.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/bin/Debug/net8.0/3-modified_behavior.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/bin/Debug/net8.0/3-modified_behavior.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/refint/3-modified_behavior.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/3-modified_behavior.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/3-modified_behavior/obj/Debug/net8.0/ref/3-modified_behavior.dll
