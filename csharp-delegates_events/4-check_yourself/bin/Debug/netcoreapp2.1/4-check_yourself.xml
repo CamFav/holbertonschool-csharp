@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>4-check_yourself</name>
+    </assembly>
+    <members>
+        <member name="T:Modifier">
+            <summary>
+            Modifiers for base values
+            </summary>
+        </member>
+        <member name="F:Modifier.Weak">
+            <summary>
+            Represents a weak modifier, which reduces the base value by half.
+            </summary>
+        </member>
+        <member name="F:Modifier.Base">
+            <summary>
+            Represents the base modifier, which keeps the base value unchanged.
+            </summary>
+        </member>
+        <member name="F:Modifier.Strong">
+            <summary>
+            Represents a strong modifier, which increases the base value by 1.5 times.
+            </summary>
+        </member>
+        <member name="T:CalculateModifier">
+            <summary>
+            Delegate to calculate a modified value based on a base value and a modifier
+            </summary>
+            <param name="baseValue">The base value to modify</param>
+            <param name="modifier">The modifier to apply</param>
+            <returns>The modified value</returns>
+        </member>
+        <member name="T:Player">
+            <summary>
+            Player with a name, maximum health, and current health
+            </summary>
+        </member>
+        <member name="P:Player.name">
+            <summary>
+            Name of the Player
+            </summary>
+        </member>
+        <member name="P:Player.maxHp">
+            <summary>
+            Maximum health
+            </summary>
+        </member>
+        <member name="P:Player.hp">
+            <summary>
+            Current health
+            </summary>
+        </member>
+        <member name="P:Player.status">
+            <summary>
+            Current status of the player
+            </summary>
+        </member>
+        <member name="E:Player.HPCheck">
+            <summary>
+            Event triggered when the player's HP is validated.
+            </summary>
+        </member>
+        <member name="T:Player.CalculateHealth">
+            <summary>
+            Delegate to calculate health changes.
+            </summary>
+        </member>
+        <member name="M:Player.#ctor(System.String,System.Single,System.String)">
+            <summary>
+            Initializes new instance of the Player
+            </summary>
+            <param name="name">The name of the Player</param>
+            <param name="maxHp">The maximum health of the player</param>
+        </member>
+        <member name="M:Player.PrintHealth">
+            <summary>
+            Prints player name with his current health status
+            </summary>
+        </member>
+        <member name="M:Player.TakeDamage(System.Single)">
+            <summary>
+            Reduces the player's health by a specified damage amount.
+            </summary>
+            <param name="damage">The amount of damage taken.</param>
+        </member>
+        <member name="M:Player.HealDamage(System.Single)">
+            <summary>
+            Increases the player's health by a specified healing amount.
+            </summary>
+            <param name="heal">The amount of health points to heal.</param>
+        </member>
+        <member name="M:Player.ValidateHP(System.Single)">
+            <summary>
+            Validates and updates the player's current health
+            </summary>
+            <param name="newHp">The new value to set for hp</param>
+        </member>
+        <member name="M:Player.ApplyModifier(System.Single,Modifier)">
+            <summary>
+            Applies a modifier to a base value and returns the result
+            </summary>
+            <param name="baseValue">The base value to modify</param>
+            <param name="modifier">The modifier to apply</param>
+            <returns>The modified value</returns>
+        </member>
+        <member name="M:Player.CheckStatus(System.Object,CurrentHPArgs)">
+            <summary>
+            
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="T:CurrentHPArgs">
+            <summary>
+            Event arguments class to hold the current HP value
+            </summary>
+        </member>
+        <member name="P:CurrentHPArgs.currentHp">
+            <summary>
+            Gets the current HP value
+            </summary>
+        </member>
+        <member name="M:CurrentHPArgs.#ctor(System.Single)">
+            <summary>
+            Initializes a new instance of the CurrentHPArgs class
+            </summary>
+            <param name="newHp">The new HP value</param>
+        </member>
+    </members>
+</doc>

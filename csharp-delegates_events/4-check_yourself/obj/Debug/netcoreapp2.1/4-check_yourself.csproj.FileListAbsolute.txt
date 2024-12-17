@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.xml
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.runtimeconfig.dev.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/netcoreapp2.1/4-check_yourself.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.csproj.AssemblyReference.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/netcoreapp2.1/4-check_yourself.genruntimeconfig.cache

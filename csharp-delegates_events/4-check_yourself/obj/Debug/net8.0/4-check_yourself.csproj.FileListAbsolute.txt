@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/net8.0/4-check_yourself
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/net8.0/4-check_yourself.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/net8.0/4-check_yourself.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/net8.0/4-check_yourself.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/bin/Debug/net8.0/4-check_yourself.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/refint/4-check_yourself.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/4-check_yourself.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/4-check_yourself/obj/Debug/net8.0/ref/4-check_yourself.dll

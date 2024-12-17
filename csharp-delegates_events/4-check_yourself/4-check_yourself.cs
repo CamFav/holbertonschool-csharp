@@ -5,8 +5,19 @@
 /// </summary>
 public enum Modifier
 {
+    /// <summary>
+    /// Represents a weak modifier, which reduces the base value by half.
+    /// </summary>
     Weak,
+
+    /// <summary>
+    /// Represents the base modifier, which keeps the base value unchanged.
+    /// </summary>
     Base,
+
+    /// <summary>
+    /// Represents a strong modifier, which increases the base value by 1.5 times.
+    /// </summary>
     Strong
 }
 
@@ -39,6 +50,16 @@ public class Player
     private float hp { get; set; }
 
     /// <summary>
+    /// Current status of the player
+    /// </summary>
+    private string status { get; set; }
+
+    /// <summary>
+    /// Event triggered when the player's HP is validated.
+    /// </summary>
+    public event EventHandler<CurrentHPArgs> HPCheck;
+
+    /// <summary>
     /// Delegate to calculate health changes.
     /// </summary>
     public delegate void CalculateHealth(float amount);
@@ -48,7 +69,7 @@ public class Player
     /// </summary>
     /// <param name="name">The name of the Player</param>
     /// <param name="maxHp">The maximum health of the player</param>
-    public Player(string name = "Player", float maxHp = 100f)
+    public Player(string name = "Player", float maxHp = 100f, string status = "Undefined")
     {
         this.name = name;
 
@@ -63,6 +84,12 @@ public class Player
         }
 
         this.hp = this.maxHp;
+        if (status == "Undefined")
+        {
+            this.status = $"{name} is ready to go!";
+        }
+
+        HPCheck += CheckStatus;
     }
 
     /// <summary>
@@ -119,16 +146,17 @@ public class Player
     {
         if (newHp < 0)
         {
-            hp = 0;
+            this.hp = 0;
         }
         else if (newHp > maxHp)
         {
-            hp = maxHp;
+            this.hp = maxHp;
         }
         else
         {
-            hp = newHp;
+            this.hp = newHp;
         }
+        HPCheck?.Invoke(this, new CurrentHPArgs(this.hp));
     }
 
     /// <summary>
@@ -139,17 +167,57 @@ public class Player
     /// <returns>The modified value</returns>
     public float ApplyModifier(float baseValue, Modifier modifier)
     {
-            if (modifier == Modifier.Weak)
+        switch (modifier)
         {
-            return baseValue / 2;
+            case Modifier.Weak:
+                return baseValue / 2;
+            case Modifier.Base:
+                return baseValue;
+            case Modifier.Strong:
+                return baseValue * 1.5f;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(modifier), modifier, null);
         }
-        else if (modifier == Modifier.Strong)
-        {
-            return baseValue * 1.5f;
-        }
-        else
-        {
-            return baseValue;
-        }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="sender"></param>
+    /// <param name="e"></param>
+    private void CheckStatus(object? sender, CurrentHPArgs e)
+    {
+        if (e.currentHp == maxHp)
+            status = $"{name} is in perfect health!";
+        else if (e.currentHp >= maxHp / 2 && e.currentHp < maxHp)
+            status = $"{name} is doing well!";
+        else if (e.currentHp >= maxHp / 4 && e.currentHp < maxHp / 2)
+            status = $"{name} isn't doing too great...";
+        else if (e.currentHp > 0 && e.currentHp < maxHp / 4)
+            status = $"{name} needs help!";
+        else if (e.currentHp == 0)
+            status = $"{name} is knocked out!";
+
+        Console.WriteLine(status);
+    }
+}
+
+/// <summary>
+/// Event arguments class to hold the current HP value
+/// </summary>
+public class CurrentHPArgs : EventArgs
+{
+    /// <summary>
+    /// Gets the current HP value
+    /// </summary>
+    public float currentHp { get; }
+
+    /// <summary>
+    /// Initializes a new instance of the CurrentHPArgs class
+    /// </summary>
+    /// <param name="newHp">The new HP value</param>
+    public CurrentHPArgs(float newHp)
+    {
+        this.currentHp = newHp;
     }
 }
