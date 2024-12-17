@@ -1,0 +1,15 @@
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.GeneratedMSBuildEditorConfig.editorconfig
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.AssemblyInfoInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.AssemblyInfo.cs
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.csproj.CoreCompileInputs.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.sourcelink.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/bin/Debug/net8.0/0-universal_health
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/bin/Debug/net8.0/0-universal_health.deps.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/bin/Debug/net8.0/0-universal_health.runtimeconfig.json
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/bin/Debug/net8.0/0-universal_health.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/bin/Debug/net8.0/0-universal_health.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/refint/0-universal_health.dll
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.pdb
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/0-universal_health.genruntimeconfig.cache
+/home/camille/holbertonschool-csharp/csharp-delegates_events/0-universal_health/obj/Debug/net8.0/ref/0-universal_health.dll
