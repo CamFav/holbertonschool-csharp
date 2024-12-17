@@ -5,8 +5,19 @@
 /// </summary>
 public enum Modifier
 {
+    /// <summary>
+    /// Represents a weak modifier, which reduces the base value by half.
+    /// </summary>
     Weak,
+
+    /// <summary>
+    /// Represents the base modifier, which keeps the base value unchanged.
+    /// </summary>
     Base,
+
+    /// <summary>
+    /// Represents a strong modifier, which increases the base value by 1.5 times.
+    /// </summary>
     Strong
 }
 
@@ -139,17 +150,16 @@ public class Player
     /// <returns>The modified value</returns>
     public float ApplyModifier(float baseValue, Modifier modifier)
     {
-            if (modifier == Modifier.Weak)
+        switch (modifier)
         {
-            return baseValue / 2;
-        }
-        else if (modifier == Modifier.Strong)
-        {
-            return baseValue * 1.5f;
-        }
-        else
-        {
-            return baseValue;
+            case Modifier.Weak:
+                return baseValue / 2;
+            case Modifier.Base:
+                return baseValue;
+            case Modifier.Strong:
+                return baseValue * 1.5f;
+            default:
+                throw new ArgumentOutOfRangeException(nameof(modifier), modifier, null);
         }
     }
 }
