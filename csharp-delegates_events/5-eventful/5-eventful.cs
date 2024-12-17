@@ -204,7 +204,7 @@ public class Player
     /// Handles warnings when the player's health value is low or reaches zero
     /// </summary>
     /// <param name="sender">The source of the event</param>
-    /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
+    /// <param name="e">e</param>
     private void HPValueWarning(object sender, CurrentHPArgs e)
     {
         Console.ForegroundColor = ConsoleColor.Red;
@@ -222,7 +222,7 @@ public class Player
     /// <summary>
     /// Checks the player's health and triggers a warning if it falls below 25%
     /// </summary>
-    /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
+    /// <param name="e">E</param>
     public void OnCheckStatus(CurrentHPArgs e)
     {
         CheckStatus(HPCheck, e);
