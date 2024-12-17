@@ -110,7 +110,6 @@ public class Player
         if (damage < 0)
         {
             Console.WriteLine($"{name} takes 0 damage!");
-            ValidateHP(hp);
         }
         else
         {
@@ -224,7 +223,7 @@ public class Player
     /// Checks the player's health and triggers a warning if it falls below 25%
     /// </summary>
     /// <param name="e">An instance of <see cref="CurrentHPArgs"/> containing the player's current health.</param>
-    private void OnCheckStatus(CurrentHPArgs e)
+    public void OnCheckStatus(CurrentHPArgs e)
     {
         CheckStatus(HPCheck, e);
 
